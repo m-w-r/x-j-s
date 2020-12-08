@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "x-j-s",
+  "version": "0.0.1",
+  "description": "A Javascript template engine.",
+  "author": "Matthew Reeve",
+  "license": "ISC",
+  "scripts": {
+    "test": "c8 --all node test/all.mjs && npm run coverage",
+    "coverage": "c8 check-coverage --lines 100 --branches 100"
+  },
+  "devDependencies": {
+    "c8": "^7.3.5"
+  }
+}
